@@ -1,0 +1,15 @@
+- hosts: localhost
+  tasks:
+    - name: Launch an EC2 instance
+      community.aws.ec2_instance:
+        count: 1
+        image_id: "ami-099b3d23e336c2e83"
+        instance_type: "t2.micro"
+        key_name: "key_pair"
+        name: "launching-instance-automatic"
+        region: "ap-south-1"
+        state: present
+        vpc_subnet_id: "subnet-0953158ef0b8007ac"
+        access_key: "AKIAZPHYBXBW5AOFN5JX"
+        secret_key: "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"
+
