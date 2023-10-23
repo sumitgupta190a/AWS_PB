@@ -10,6 +10,6 @@
         region: "ap-south-1"
         state: present
         vpc_subnet_id: "subnet-0953158ef0b8007ac"
-        access_key: "AKIAZPHYBXBW5AOFN5JX"
-        secret_key: "b+nYfF6EwYQbVUB29KKgGG2Yn5TvvRC8wG2fMSET"
+        access_key: "YOUR_ACCESS_KEY"
+        secret_key: "YOUR_SECRET_KEY"
 
